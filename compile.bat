@@ -1,1 +1,1 @@
-gcc *.c -o prog 
+gcc *.c -o prog -march="native"
