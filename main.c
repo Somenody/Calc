@@ -1,8 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include "headers.h"
-#define EXIT_SUCCESS 0
-#define EXIT_FAILURE 1
 
 int main(int argc, char * argv[]) {
     int userint, userint1;
