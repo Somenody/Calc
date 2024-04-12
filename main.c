@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include "headers.h"
 
-int main(int argc, char * argv[]) {
+int main(int argc, char **argv) {
     int userint, userint1;
     char signe[4] = {'/', '*', '-', '+'};
     char usersigne;
