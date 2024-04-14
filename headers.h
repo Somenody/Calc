@@ -1,6 +1,6 @@
-int add(int int1, int int2);
-int sous(int int1, int int2);
-int diviser(int int1, int int2);
-int mult(int int1, int int2);
+float add(int int1, int int2);
+float sous(int int1, int int2);
+float diviser(int int1, int int2);
+float mult(int int1, int int2);
 void showtab(char arrname[], int TABSIZE);
 
