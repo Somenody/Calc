@@ -1,25 +1,29 @@
 #include <stdio.h>
 #include "headers.h"
-float add(int int1, int int2)
+float add(float fl1,float fl2)
 {
-	return int1 + int2;
+	return fl1 + fl2;
 }
-float sous(int int1, int int2)
+float sous(float fl1,float fl2)
 {
-	return int1 - int2;
+	return fl1 - fl2;
 }
-float diviser(int int1, int int2)
+float diviser(float fl1,float fl2)
 {
-	return int1 / int2;
+	return fl1 / fl2;
 }
-float mult(int int1, int int2)
+float mult(float fl1,float fl2)
 {
-	return int1 * int2;
+	return fl1 * fl2;
 }
-void showtab(char arrname[], int TABSIZE)
+void espace()
 {
-	for(int i = 0; i < TABSIZE; i++) {
+	printf("\n");
+}
+void showtab(char arrname[], int size)
+{
+	for(int i = 0; i < size; i++) {
 		printf("%c", arrname[i]);
 	}
-	printf("\n");
+	espace();
 }

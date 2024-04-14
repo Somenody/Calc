@@ -6,8 +6,7 @@ int main(int argc, char **argv) {
     float userint, userint1;
     char signe[4] = {'/', '*', '-', '+'};
     char usersigne;
-
-    while (1) {
+     while (1) {
         printf("QUELLE EST VOTRE PREMIER NOMBRE ? : ");
         scanf("%f", &userint);
         printf("QUELLE EST VOTRE SECOND NOMBRE ? : ");
